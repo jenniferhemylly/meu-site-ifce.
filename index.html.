@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <p>Conheça nossa coleção de objetos.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a> |
+        <a href="autor.html">Sobre o Autor</a> |
+        <a href="login.html">Admin</a>
+    </nav>
+
+    <main>
+        <h2>Nossa coleção</h2>
+        <p>Explore os objetos apresentados no nosso site.</p>
+    </main>
+
+    <footer>
+        <p>Autora: Jennifer Hemylly</p>
+        <a href="autor.html">Sobre o Autor</a>
+    </footer>
+</body>
+</html>
