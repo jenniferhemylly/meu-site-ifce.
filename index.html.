@@ -11,11 +11,21 @@
         <p>Conheça nossa coleção de objetos.</p>
     </header>
 
-    <nav>
-        <a href="index.html">Início</a> |
-        <a href="autor.html">Sobre o Autor</a> |
-        <a href="login.html">Admin</a>
-    </nav>
+   
+<nav>
+    <a href="index.html">Início</a> |
+    <a href="autor.html">Sobre o Autor</a> |
+
+    <details>
+        <summary>Admin</summary>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="objetos.html">Cadastro de Objetos</a></li>
+            <li><a href="usuarios.html">Cadastro de Usuários</a></li>
+        </ul>
+    </details>
+</nav>
+
 
     <main>
         <h2>Nossa coleção</h2>
