@@ -1,0 +1,127 @@
+
+/* VARIÁVEIS DE CORES */
+:root {
+    --cor-principal: #d96c9d;
+    --cor-secundaria: #fce4ec;
+    --cor-fundo: #fff8fb;
+    --cor-texto: #444444;
+    --cor-borda: #edb5cc;
+
+    /* TIPOGRAFIA */
+    --fonte-principal: Arial, sans-serif;
+}
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+    padding: 15px;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: var(--cor-texto);
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--cor-principal);
+    margin-bottom: 15px;
+}
+
+/* FORMULÁRIOS */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+}
+
+/* BOTÕES */
+button, input[type="submit"] {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid var(--cor-borda);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--cor-secundaria);
+}
+
+/* RODAPÉ */
+footer {
+    background-color: var(--cor-principal);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* TELAS MAIORES */
+@media (min-width: 768px) {
+    body {
+        max-width: 1100px;
+        margin: auto;
+        padding: 25px;
+    }
+
+    main {
+        padding: 30px;
+    }
+}
