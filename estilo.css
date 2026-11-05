@@ -48,3 +48,40 @@ footer {
     text-align: center;
     border-top: 2px solid var(--cor-principal);
 }
+/* Esconder o menu inicialmente */
+nav {
+    display: none;
+}
+
+/* Estilo dos botões */
+.abrir-menu,
+.fechar-menu {
+    display: block;
+    padding: 12px;
+    background-color: var(--cor-principal);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Esconder o botão de fechar */
+.fechar-menu {
+    display: none;
+}
+
+/* Mostrar o menu ao clicar */
+#menu-toggle:checked ~ nav {
+    display: block;
+}
+
+/* Esconder o botão de abrir */
+#menu-toggle:checked ~ .abrir-menu {
+    display: none;
+}
+
+/* Mostrar o botão de fechar */
+#menu-toggle:checked ~ nav .fechar-menu {
+    display: block;
+}
